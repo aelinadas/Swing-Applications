@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel15"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mirrors" min="-2" max="-2" attributes="0"/>
+                          <Component id="name" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="model" min="-2" max="-2" attributes="0"/>
+                          <Component id="serial_no" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="color" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="dimensions" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="description" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="price" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="avail_num" min="-2" max="-2" attributes="0"/>
+                          <Component id="seat_type" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lights" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="display" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="horsePower" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="wheel_arm" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="door" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="createBtn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="uploadBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="text" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="serialTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="dmTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="priceTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="descTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="availTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="seatTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="lightTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="displayTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="hpTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="doorTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="wheelTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="mirrorTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="colorTxt" alignment="1" max="32767" attributes="0"/>
+                  <Component id="create" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameText" alignment="1" pref="203" max="32767" attributes="0"/>
+                  <Component id="modelTxt" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="create" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="name" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="model" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modelTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="color" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="colorTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="serial_no" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="serialTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="dimensions" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="dmTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="description" min="-2" max="-2" attributes="0"/>
+                  <Component id="descTxt" min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="price" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="priceTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="avail_num" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="availTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="seat_type" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="seatTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lights" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lightTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="display" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="displayTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="horsePower" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hpTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="wheel_arm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="doorTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="door" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wheelTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mirrors" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mirrorTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="createBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="uploadBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="text" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="create">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="name">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="model">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="color">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="serial_no">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dimensions">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dimensions:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="description">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Description:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="price">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Price:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="avail_num">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Available No:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="seat_type">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seat Type:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lights">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lights:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="display">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Display:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="horsePower">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horse Power:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="door">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wheel Arm:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wheel_arm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Door:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mirrors">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mirrors:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameText">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameTextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modelTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="colorTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serialTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serialTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dmTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dmTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="descTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="priceTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="availTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="availTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="seatTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="lightTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lightTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="displayTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displayTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hpTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="doorTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="wheelTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="mirrorTxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mirrorTxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="createBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="uploadBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upload"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="uploadBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="text">
+    </Component>
+  </SubComponents>
+</Form>
